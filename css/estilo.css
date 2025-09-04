@@ -12,6 +12,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-padding-top: 80px;
 }
 
 body {
@@ -281,4 +282,16 @@ span {
   #menu-toggle:checked ~ nav {
     display: block;
   }
+}
+
+.blocos h3 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  border-left: 5px solid #2947aa;
+  padding-left: 1.5rem;
+}
+
+.blocos p{
+  font-size: 1.8rem;
+  line-height: 1.7;
 }
